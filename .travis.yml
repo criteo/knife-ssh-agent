@@ -1,0 +1,11 @@
+language: ruby
+rvm:
+- 2.4
+deploy:
+  provider: rubygems
+  gem: knife-ssh-agent
+  on:
+    tags: true
+    repo: criteo/knife-ssh-agent
+  api_key:
+    secure: lUZj460tSYMs4gm7uX0/8vk8R9/cLAJeys4FacVsGwQK5dCIyQBWioNzGrvXHJzjksP378nwX7SeHIFGFAKBkpCQX82ORGjaqgfnZDN0mxAZ5HqKbYdlU5nxeM5vm80tk4v77qFyvuX8XHCMTvZKpR1djA4ZIteCAw0CVFPqRelUzKpSFjytUge7vIorjnbjACCC9fh5rxUFDzLVZVECJT4WH2HTnoo9SL9ec2kQrwHgzUV4lUIrJkyKZtHkL6Iaw/YSPPPDSyd2llf6HuFV9ivzZ8uOEZHKT4qQ1EBxToobHEUjD2GvmfvjKPuZJBB+A5GEcHwVIRI59TRu8YQBoEGhiS6z6jFPJs8us9wfwquAYR195nbDPyZl5Ru1ebblsRd7BON+o0cHUP7d9a41mEufvoyxPMjA0m6cNJSbe0ve+fBM+gte63kIWdq6K6CV1UqZBpitEt4fUM5hPPjQRaexYxgMZ+RVY7pEKMwoG79G3enApb4riZK5+lcY7wl2cc9FfMCy6hqhXDvZ83TKiXb3zY6DdTn7yikOBKuphK4By/C5pTUcP79CIrEOTIunbsVg6f+ge1Y9MZ8i7BWUzlCq/HNwebcYYJ1nF/PvIqKHKCdpoJ1ItqtSxZme4s5MKn9eselYXgUry6J61RvnlfK4/+hZ8DzsG5+BRDI3EP0=
